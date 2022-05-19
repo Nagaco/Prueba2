@@ -9,6 +9,6 @@ class PersonaTest
     {
         Persona p = new Persona("James");
         assertEquals("James", p.getName());
-        assertEquals("John", p.getName());
+        assertEquals("James", p.getName());
     }
 }
